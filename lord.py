@@ -17,7 +17,7 @@ def preprocess(args):
 		file = assets.get_preprocess_file_path(args.data_name),
 		imgs = imgs, classes = classes, contents = contents, n_classes = n_classes
 	)
-
+print(nir)
 
 def split_classes(args):
 	assets = AssetManager(args.base_dir)
